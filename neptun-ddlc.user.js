@@ -4,7 +4,8 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://hallgato*.neptun.elte.hu/*
+// @match        https://hallgato1.neptun.elte.hu/*
+// @match        https://hallgato3.neptun.elte.hu/*
 // @icon         https://www.google.com/s2/favicons?domain=elte.hu
 // @grant        none
 // ==/UserScript==
