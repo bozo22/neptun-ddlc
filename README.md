@@ -1,6 +1,8 @@
 # subarashii-neptun
 még nincs kész! xd
 
+eddig a kék és a rózsaszín téma működik de még az sem végleges
+
 ## Telepítés
 
 kell hozzá: tampermonkey
