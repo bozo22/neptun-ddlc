@@ -5,4 +5,4 @@ még nincs kész! xd
 
 kell hozzá: tampermonkey
 
-link: https://github.com/bozo22/neptun-ddlc/releases/download/v0.2.1/neptun-ddlc.user.js
+link: https://github.com/bozo22/subarashii-neptun/releases/download/v0.3/subarashii-neptun.user.js
