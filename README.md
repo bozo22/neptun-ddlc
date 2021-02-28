@@ -20,4 +20,4 @@
 
 [Telepítés](https://github.com/bozo22/subarashii-neptun/releases/latest/download/subarashii-neptun.user.js)
 
-3️⃣ 💥👀 Anime idő!🌟💥
+3️⃣ 💥👀 アニメタイム!🌟💥
