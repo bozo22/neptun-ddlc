@@ -1,4 +1,4 @@
-# neptun-ddlc
+# subarashii-neptun
 még nincs kész! xd
 
 ## Telepítés
