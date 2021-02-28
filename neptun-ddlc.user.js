@@ -4,8 +4,15 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://hallgato1.neptun.elte.hu/*
-// @match        https://hallgato3.neptun.elte.hu/*
+// @include        https://*neptun*/*hallgato*/*
+// @include        https://*neptun*/*Hallgatoi*/*
+// @include        https://*neptun*/*oktato*/*
+// @include        https://*hallgato*.*neptun*/*
+// @include        https://*oktato*.*neptun*/*
+// @include        https://netw*.nnet.sze.hu/hallgato/*
+// @include        https://nappw.dfad.duf.hu/hallgato/*
+// @include        https://host.sdakft.hu/*
+// @include        https://neptun.ejf.hu/ejfhw/*
 // @icon         https://www.google.com/s2/favicons?domain=elte.hu
 // @grant        none
 // ==/UserScript==
