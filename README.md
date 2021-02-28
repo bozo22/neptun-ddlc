@@ -1,6 +1,6 @@
 # ✨ Neptun weeb mode ✨
 
-🔥 3 téma (lesz több is)
+🔥 3 téma (lesz több is) - egyelőre a kék, a pink és a narancssárga működik
 
 🔥 gigantikus anime csöcsök
 
