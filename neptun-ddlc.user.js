@@ -11,5 +11,5 @@
 
 (function() {
     'use strict';
-    document.querySelector('.main_header_r').style.background='url("https://kyoto2001.neocities.org/header_right1.jpg")';
+    document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/neptun-ddlc/main/images/header_right.jpg")';
 })();
