@@ -24,5 +24,5 @@
 
 ## 🖼️ Képek
 
-!(/screenshots/screen1.png)
-!(/screenshots/screen2.png)
+![screen1](/screenshots/screen1.png)
+![screen2](/screenshots/screen2.png)
