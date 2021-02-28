@@ -1,10 +1,23 @@
-# subarashii-neptun
-még nincs kész! xd
+# ✨ Neptun weeb mode ✨
 
-eddig a kék és a rózsaszín téma működik de még az sem végleges
+🔥 3 téma (lesz több is) - egyelőre a kék, a pink és a narancssárga működik
 
-## Telepítés
+🔥 gigantikus anime csöcsök
 
-kell hozzá: tampermonkey
+🔥 Neptun PowerUp kompatibilitás
 
-link: https://github.com/bozo22/subarashii-neptun/releases/latest/download/subarashii-neptun.user.js
+## 💯 Telepítés
+
+1️⃣ Először is töltsd le a Tampermonkey kiegészítőt a böngésződbe (ha van Neptun Powerupod, akkor ezt már megcsináltad korábban)
+
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey)
+* [Google Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+* [Microsoft Edge](https://microsoftedge.microsoft.com/insider-addons/detail/iikmkjmpaadaobahmlepeloendndfphd)
+* [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta)
+* [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089)
+
+2️⃣ Kattints a linkre és menj a telepítés gombra
+
+[Telepítés](https://github.com/bozo22/subarashii-neptun/releases/latest/download/subarashii-neptun.user.js)
+
+3️⃣ 💥👀 アニメタイム!🌟💥
