@@ -5,6 +5,7 @@
 // @description  gigantikus anime csöcsök
 // @author       You
 // @downloadURL    https://github.com/bozo22/subarashii-neptun/releases/latest/download/subarashii-neptun.user.js
+// @updateURL      https://github.com/bozo22/subarashii-neptun/releases/latest/download/subarashii-neptun.user.js
 // @include        https://*neptun*/*hallgato*/*
 // @include        https://*neptun*/*Hallgatoi*/*
 // @include        https://*neptun*/*oktato*/*
