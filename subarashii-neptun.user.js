@@ -1,9 +1,10 @@
 // ==UserScript==
-// @name         Neptun-ddlc
+// @name         subarashii-neptun
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
+// @version      0.4
+// @description  gigantikus anime csöcsök
 // @author       You
+// @downloadURL    https://github.com/bozo22/subarashii-neptun/releases/download/latest/subarashii-neptun.user.js
 // @include        https://*neptun*/*hallgato*/*
 // @include        https://*neptun*/*Hallgatoi*/*
 // @include        https://*neptun*/*oktato*/*
@@ -13,13 +14,17 @@
 // @include        https://nappw.dfad.duf.hu/hallgato/*
 // @include        https://host.sdakft.hu/*
 // @include        https://neptun.ejf.hu/ejfhw/*
-// @icon         https://www.google.com/s2/favicons?domain=elte.hu
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
+
     let ss = document.styleSheets;
+
+    //Neptun PowerUp kompatibilitás
+    $("#panHeader, #panCloseHeader").show();
+    $("#span_changeproject").parent().show();
 
     //DDLC
     for (var i = 0, max = ss.length; i < max; i++) {
