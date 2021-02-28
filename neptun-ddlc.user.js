@@ -12,4 +12,6 @@
 (function() {
     'use strict';
     document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/neptun-ddlc/main/images/header_right.jpg")';
+    document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/neptun-ddlc/main/images/header_mid.jpg")';
+    document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/neptun-ddlc/main/images/header_left.jpg")';
 })();
