@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         subarashii-neptun
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  gigantikus anime csöcsök
 // @author       You
 // @downloadURL    https://github.com/bozo22/subarashii-neptun/releases/latest/download/subarashii-neptun.user.js
@@ -49,6 +49,13 @@
         document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/lain/header_right.jpg")';
         document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
         document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/lain/header_left.jpg")';
+    }
+
+    //Touhou skin
+    if (skin.includes("App_Themes/Skin_Neptun_Lime")) {
+        document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/touhou/header_right.jpg")';
+        document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
+        document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/touhou/header_left.jpg")';
     }
 
     //Neptun PowerUp kompatibilitás
