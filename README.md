@@ -22,6 +22,6 @@
 
 ## 🖼️ Képek
 
-![screen1](https://imgur.com/prdF1FJ)
+![screen1](https://imgur.com/download/prdF1FJ/)
 ![screen2](https://imgur.com/UrUMmSj)
 ![screen3](https://imgur.com/W5Sebe4)
