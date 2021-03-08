@@ -1,6 +1,6 @@
 # ✨ Neptun weeb mode ✨
 
-🔥 4 téma (lesz több is)
+🔥 5 téma
 
 🔥 gigantikus anime csöcsök
 
