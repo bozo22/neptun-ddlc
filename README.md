@@ -1,10 +1,8 @@
 # ✨ Neptun weeb mode ✨
 
-🔥 3 téma (lesz több is) - egyelőre a kék, a pink és a narancssárga működik
+🔥 4 téma (lesz több is)
 
 🔥 gigantikus anime csöcsök
-
-🔥 Neptun PowerUp kompatibilitás
 
 ## 💯 Telepítés
 
