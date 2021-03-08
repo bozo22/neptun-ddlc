@@ -44,6 +44,13 @@
         document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/naruto/header_left.jpg")';
     }
 
+    //Lain skin
+    if (skin.includes("App_Themes/FullCalendar")) {
+        document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/lain/header_right.jpg")';
+        document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
+        document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/lain/header_left.jpg")';
+    }
+
     //Neptun PowerUp kompatibilitás
     $("#panHeader, #panCloseHeader").show();
     $("#span_changeproject").parent().show();
