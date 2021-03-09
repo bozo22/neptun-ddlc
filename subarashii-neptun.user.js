@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         subarashii-neptun
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  gigantikus anime csöcsök
 // @author       You
 // @downloadURL    https://github.com/bozo22/subarashii-neptun/releases/latest/download/subarashii-neptun.user.js
@@ -21,7 +21,7 @@
 (function() {
     'use strict';
 
-    let skin = document.styleSheets[16].href;
+    let skin = document.styleSheets[18].href;
 
     //DDLC skin
     if (skin.includes("App_Themes/Skin_Neptun_Pink")) {
