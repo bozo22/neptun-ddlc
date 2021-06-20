@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         subarashii-neptun
 // @namespace    http://tampermonkey.net/
-// @version      0.8
+// @version      0.9
 // @description  gigantikus anime csöcsök
 // @author       You
 // @downloadURL    https://github.com/bozo22/subarashii-neptun/releases/latest/download/subarashii-neptun.user.js
