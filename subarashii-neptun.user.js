@@ -21,42 +21,59 @@
 (function() {
     'use strict';
 
-    let skin = document.styleSheets[18].href;
-
-    //DDLC skin
-    if (skin.includes("App_Themes/Skin_Neptun_Pink")) {
-        document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/ddlc/header_right.jpg")';
-        document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
-        document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/ddlc/header_left.jpg")';
+    function get_skin() {
+        for (let i = document.styleSheets.length - 1; i >= 0; i--) {
+            let style = document.styleSheets[i].href
+            if (style) {
+                if (style.includes("Skin_Neptun_Pink")) {
+                    return "ddlc"
+                }
+                else if (style.includes("Skin_Neptun_GFX")) {
+                    return "eva"
+                }
+                else if (style.includes("Skin_Neptun_Orange")) {
+                    return "naruto"
+                }
+                else if (style.includes("Skin_Neptun_NewYork")) {
+                    return "lain"
+                }
+                else if (style.includes("Skin_Neptun_Lime")) {
+                    return "touhou"
+            }
+            }
+        }
     }
 
-    //Evangelion skin
-    if (skin.includes("App_Themes/Skin_Neptun_GFX")) {
-        document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/eva/header_right.jpg")';
-        document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
-        document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/eva/header_left.jpg")';
+    let skin = get_skin()
+
+    switch(skin) {
+        case "ddlc":
+            document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/ddlc/header_right.jpg")';
+            document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
+            document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/ddlc/header_left.jpg")';
+            break
+        case "eva":
+            document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/eva/header_right.jpg")';
+            document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
+            document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/eva/header_left.jpg")';
+            break
+        case "naruto":
+            document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/naruto/header_right.jpg")';
+            document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
+            document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/naruto/header_left.jpg")';
+            break
+        case "lain":
+            document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/lain/header_right.jpg")';
+            document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
+            document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/lain/header_left.jpg")';
+            break
+        case "touhou":
+            document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/touhou/header_right.jpg")';
+            document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
+            document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/touhou/header_left.jpg")';
+            break
     }
 
-    //Naruto skin
-    if (skin.includes("App_Themes/Skin_Neptun_Orange")) {
-        document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/naruto/header_right.jpg")';
-        document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
-        document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/naruto/header_left.jpg")';
-    }
-
-    //Lain skin
-    if (skin.includes("App_Themes/Skin_Neptun_NewYork")) {
-        document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/lain/header_right.jpg")';
-        document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
-        document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/lain/header_left.jpg")';
-    }
-
-    //Touhou skin
-    if (skin.includes("App_Themes/Skin_Neptun_Lime")) {
-        document.querySelector('.main_header_r').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/touhou/header_right.jpg")';
-        document.querySelector('.main_header_m').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/header_mid.jpg")';
-        document.querySelector('.main_header_l').style.background='url("https://raw.githubusercontent.com/bozo22/subarashii-neptun/main/images/touhou/header_left.jpg")';
-    }
 
     //Neptun PowerUp kompatibilitás
     $("#panHeader, #panCloseHeader").show();
