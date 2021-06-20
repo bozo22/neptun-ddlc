@@ -1,3 +1,5 @@
+![logo](logo.png)
+
 # ✨ Neptun weeb mode ✨
 
 🔥 5 téma
