@@ -8,11 +8,11 @@
 
 ## 💯 Telepítés
 
-1️⃣ Először is töltsd le a Tampermonkey kiegészítőt a böngésződbe (ha van Neptun Powerupod, akkor ezt már megcsináltad korábban)
+1️⃣ Először is töltsd le a Tampermonkey kiegészítőt a böngésződbe
 
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey)
-* [Google Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-* [Microsoft Edge](https://microsoftedge.microsoft.com/insider-addons/detail/iikmkjmpaadaobahmlepeloendndfphd)
+* [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+* [Edge](https://microsoftedge.microsoft.com/insider-addons/detail/iikmkjmpaadaobahmlepeloendndfphd)
 * [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta)
 * [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089)
 
